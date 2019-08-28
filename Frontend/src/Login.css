@@ -1,0 +1,77 @@
+h3{
+  text-align: center;
+  }
+  #login{
+    border-radius: 400px;
+    height:40px;
+    text-align: center;
+  }
+  .t{
+  height: 100px;
+  }
+  .button1 {
+    background-color: #4CAF50;
+    border-radius:40px;
+    border: none;
+    color: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .button2 {
+  
+    background-color:gray;
+    border-radius:40px;
+    border: none;
+    color: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10%;
+  
+  
+  }
+  #loginId{
+    text-align: center;    
+  }
+
+  .button3
+  {
+     
+      background-color:gray;
+      border-radius:40px;
+      border: none;
+      color: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 20%;
+
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

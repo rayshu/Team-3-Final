@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#uploadFile{
+  padding: 20px;
+}
+
+#downloadButton{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#requestlabel{
+  padding: 50px; 
+}
+
+#or{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#downdexcel{
+  /* border: 2px solid black; */
+  /* border-radius: 30px; */
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#pro{
+  margin: 5px;
+}
+
+#fileupload{
+  border-bottom: white solid 1px;
+}
+
+#CIO, #SOW, #runChange{
+  margin-right: 20px;
+}
+
+.btn-info{
+  margin-left: 20px; 
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.form-group.required .control-label:after{
+  content: "*";
+  color: red;
+}
+
+input:invalid {
+  border-bottom: 1px red solid;
+}
+input:focus:invalid {
+  border-bottom: 1px black solid;
+}
+input:valid {
+  border-bottom: 1px green solid;
+}
